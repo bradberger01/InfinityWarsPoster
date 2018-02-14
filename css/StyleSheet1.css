@@ -1,0 +1,29 @@
+﻿body, html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+.full-bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/avengers-infinity-war-2018-4k-cq.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #fff
+}
+
+.poster-content{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.poster-content header h1 {
+    color: #fff;
+    font-size: 48px;
+}
