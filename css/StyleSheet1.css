@@ -17,9 +17,6 @@ body{
     display:flex;
 }
 
-h1{
-    color: #fff
-}
 
 .poster-content{
     background-color: rgba(0, 0, 0, 0.6);
@@ -27,10 +24,11 @@ h1{
     box-sizing: border-box;
     margin:auto;
     width: 650px;
+    text-align:center;
 }
 
 .poster-content header{
-    text-align:center;
+    display: inline-block;
 }
 
 @font-face{
@@ -40,6 +38,15 @@ h1{
 .poster-content header h1 {
     color: #fff;
     font-size: 48px;
-    margin:16px;
+    margin: 16px 8px 0;
     font-family:AvengersFont;
 }
+
+.poster-content header h2{
+    color: #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-top: 0;
+}
+
+
