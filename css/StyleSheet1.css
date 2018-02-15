@@ -58,4 +58,11 @@ body{
     border:2px solid #ddd;
 }
 
+.poster-content .release-date{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Audiowide', cursive;
+    margin-bottom: 8px;
+}
+
 
